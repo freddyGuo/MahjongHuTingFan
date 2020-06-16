@@ -10,12 +10,12 @@ ErmjFanHuMgr.getInstance().isHu(testList);
 ErmjFanHuMgr.getInstance().getFanNum(handList, optList, huInfo);
 
 ## 获取听牌列表
-ErmjFanHuMgr.getInstance().getTingList(this.transfer(handList));
+ErmjFanHuMgr.getInstance().getTingList(handList);
 
 
 # 番数参考
 番数算法主要参考 [麻将番数计算](https://blog.csdn.net/ywloveb/article/details/86570054 )
-原作者有些算法和百度百科不一样，这里选中按百度百科的标志来，比如：
+原作者有些算法和百度百科不一样，这里选择按百度百科的标准来，比如：
 ## —————————— 错误改正
 
 ### 大四喜
